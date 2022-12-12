@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="lakd.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <a id="lien1" href="#"> Faire apparaitre la calculatrice </a> /
+        <a id="lien2" href="#"> Faire disparaitre la calculatrice </a>
+      </div>
+      <br /><br />
+      <div class="tableau" id="tableau">
+        <input type="number" id="number1" />
+        <select name="symboles" id="symboles">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="/">/</option>
+          <option value="*">*</option>
+        </select>
+        <input type="number" id="number2" />
+        <input
+          type="button"
+          id="calculs"
+          value="calculer"
+          onclick="calculerCalcul();"
+        />
+      </div>
+
+
+      
+    </div>
+    <script src="cala.js"></script>
+  </body>
+</html>
